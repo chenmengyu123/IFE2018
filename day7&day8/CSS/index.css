@@ -60,6 +60,7 @@ a{
     padding-top: 25px;
     background-color: #e0f1d6;
 }
+/*中间部分*/
 .cards{
     border-bottom: 1px solid #848484;
     height: 50px;
@@ -86,9 +87,39 @@ a{
     border-top-right-radius: 15px;
     border-bottom: none;
     background-color: #e7e7e7;
-    m
 }
 .cards .item ul li:nth-child(1){
     background-color: #fff;
-    border-bottom: white;
+}
+/*内容*/
+.article{
+    width: 960px;
+    margin: 10px auto;
+}
+.article .item1{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.article .item1>p{
+    border: 1px solid #000;
+    flex: 1;
+    padding: 80px;
+    text-align: center;
+    margin: 5px;
+}
+/*底部*/
+.footer{
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    width: 100%;
+    background-color: #666666;
+    height: 75px;
+}
+.footer>p{
+    width: 960px;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
 }
