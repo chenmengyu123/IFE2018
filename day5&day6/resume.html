@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <!--<link rel="stylesheet" href="./CSS/style_2.css">-->
-    <link rel="stylesheet" href="./CSS/style_3.css">
+    <link rel="stylesheet" href="./CSS/style_3.css" id="1">
+    <style>
+        #change{
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
 <div class="contain">
@@ -76,6 +86,22 @@
             </div>
         </div>
     </div>
+    <button id="change">切换主题</button>
 </div>
+<script>
+    var btn=document.getElementById('change');
+    var css=document.getElementsByTagName('link')[0];
+    btn.onclick=function(){
+        var i=css.id;
+        if(i==2){
+            css.setAttribute("href","./CSS/style_3.css");
+            css.setAttribute("id","1");
+        }
+        if(i==1){
+            css.setAttribute("href","./CSS/style_2.css");
+            css.setAttribute("id","2");
+        }
+    }
+</script>
 </body>
 </html>
