@@ -237,8 +237,26 @@ h1{
 .page7_Left{
 	float: right;
 	width: 470px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
+    padding: 88px 17px 117px 99px;
+    box-sizing: border-box;
+    height: 700px;
 }
-.page7_Left ul {
+.page7_Left ul li {
 	list-style: none;
+    margin-bottom: 40px;
+}
+.page7_Left p:first-of-type{
+    font-size: 42px;
+    margin-bottom: 49px;
+}
+.page7_Left p:nth-of-type(2){
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+.footer{
+    height:410px;
+    background: #141414;
+    position: relative;
+    bottom: 0;
 }
