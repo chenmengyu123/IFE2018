@@ -197,6 +197,7 @@ h1{
 /*page7*/
 .page7_Container{
 	width: 970px;
+    height: 720px;
 	margin: 0 auto;
 }
 .page7_Right{
@@ -257,6 +258,15 @@ h1{
 .footer{
     height:410px;
     background: #141414;
-    position: relative;
-    bottom: 0;
+    padding: 88px 227px 124px 215px;
+    box-sizing: border-box;
+}
+.footer>ul>li{
+    float: left;
+    list-style: none;
+    margin-left: 125px;
+}
+.footer p{
+    color: #FFFFFF;
+    font-size: 14px;
 }
