@@ -261,12 +261,27 @@ h1{
     padding: 88px 227px 124px 215px;
     box-sizing: border-box;
 }
+.footer ul li{
+    list-style: none;
+    margin-bottom: 36px;
+}
 .footer>ul>li{
     float: left;
     list-style: none;
-    margin-left: 125px;
+    margin-right: 125px;
 }
 .footer p{
     color: #FFFFFF;
     font-size: 14px;
+    margin-bottom: 36px;
+}
+.footer>ul>li:last-of-type{
+    width: 259px;
+}
+.footer .icon li{
+    float: left;
+    margin-right: 28px;
+}
+.footer .icon li:last-of-type{
+    margin-right: 0;
 }
